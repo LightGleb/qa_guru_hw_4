@@ -6,7 +6,7 @@ import tests
 
 
 def test_fill_and_submit_form():
-    browser.open('/')
+    browser.open('/automation-practice-form')
     # WHEN
     browser.element('#firstName').type('Глеб')
     browser.element('#lastName').type('Иванов')
